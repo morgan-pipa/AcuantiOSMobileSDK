@@ -1685,28 +1685,28 @@ This class contains the following **utility** method, which can be called to pre
 
 ### Parameters
 
-####(id<AcuantFacialCaptureDelegate>)delegate
+#### (id<AcuantFacialCaptureDelegate>)delegate
 Delegate where the control is to be returned
 
-####(AcuantMobileSDKController)sdkController
+#### (AcuantMobileSDKController)sdkController
 The SDK controller
 
-####(UIViewController)parentVC
+#### (UIViewController)parentVC
 Parent view controller that presents the camera interface
 
-####(BOOL)cancelVisible
+#### (BOOL)cancelVisible
 Indicates whether to show **Cancel** button
 
-####(CGRect) cancelRect
+#### (CGRect) cancelRect
 Indicates location of **Cancel** button
 
-####(NSString)watermarkText
+#### (NSString)watermarkText
 Brand watermark text
 
-####(NSAttributedString)message
+#### (NSAttributedString)message
 Instruction message (for example, “Blink Slowly”)
 
-####(CGRect)rect
+#### (CGRect)rect
 Frame in which instruction to be shown within the camera interface
 
 
